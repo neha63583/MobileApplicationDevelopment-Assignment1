@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">A1101043939</string>
+    <string name="chooseAmrBtn">Choose</string>
+
+    <string-array name="amrRestList">
+        <item>Popeyes Louisiana Kitchen</item>
+        <item>Kings Delight</item>
+        <item>Mr.Sub</item>
+    </string-array>
+
+    <string-array name="chiRestList">
+        <item>Caribbean Heat</item>
+        <item>Tin Tin Congee</item>
+        <item>Work With Yu</item>
+    </string-array>
+
+    <string-array name="indRestList">
+        <item>Punjabi Dhaba</item>
+        <item>Bollywood Restaurant</item>
+    </string-array>
+
+    <string-array name="itaRestList">
+        <item>La Campagna</item>
+        <item>Giorgio D</item>
+    </string-array>
+
+    <string-array name="popMenuList">
+        <item>Chicken Fingers</item>
+        <item>Fries</item>
+        <item>Buffalo Wings</item>
+        <item>Tenders</item>
+        <item>Chicken Sandwich</item>
+        <item>Fish Sandwich</item>
+        <item>Shrimp Sandwich</item>
+        <item>Shrimp</item>
+    </string-array>
+
+    <string-array name="kingMenuList">
+        <item>BBQ Chicken</item>
+        <item>Fry Chicken</item>
+        <item>Jerk Chicken</item>
+        <item>Fry Fish</item>
+        <item>Fried Shrimp</item>
+        <item>Chicken noodles</item>
+        <item>Chocken Noodles Soup</item>
+        <item>Chicken Nuggets</item>
+    </string-array>
+
+    <string-array name="subMenuList">
+        <item>Chicken Souvlaki</item>
+        <item>Ultimate Club</item>
+        <item>Steak and Cheese</item>
+        <item>Louisiana Pepper Chicken</item>
+        <item>Grilled Chicken</item>
+        <item>Spicy Breaded Chicken</item>
+        <item>Canadian Club</item>
+        <item>Buffalo Chicken</item>
+    </string-array>
+
+    <string-array name="caribbeanMenuList">
+        <item>Crab Soup</item>
+        <item>Chicken Won Ton</item>
+        <item>Beef Won Ton</item>
+        <item>Pork Won Ton</item>
+        <item>Mixed vegetable soup</item>
+        <item>Hot and Sour soup</item>
+        <item>Egg Drop Soup</item>
+        <item>Shrimp Won Ton</item>
+    </string-array>
+
+    <string-array name="tinMenuList">
+        <item>Congees</item>
+        <item>Noodle In Soup</item>
+        <item>Fried Noodle</item>
+        <item>Fried Rice</item>
+        <item>Mango Chicken</item>
+        <item>Bombay Chicken</item>
+        <item>Sweet and Aour Chicken</item>
+        <item>Shrimp Noodles</item>
+    </string-array>
+
+    <string-array name="yuMenuList">
+        <item>Mix Sea Food Soup</item>
+        <item>Hot Sour Soup</item>
+        <item>Wonton Soup</item>
+        <item>Chicken corn soup</item>
+        <item>Spring rolls</item>
+        <item>Fried Wonton</item>
+        <item>Egg rolls</item>
+        <item>Chicken rolls</item>
+    </string-array>
+
+    <string-array name="punjabiMenuList">
+        <item>Dal Makhani</item>
+        <item>Aloo Gobi</item>
+        <item>Aloo Tikki</item>
+        <item>Samosa Chat</item>
+        <item>Gulab Jamun</item>
+        <item>Veg noodles</item>
+        <item>Spring rolls</item>
+        <item>Butter Chicken</item>
+    </string-array>
+
+    <string-array name="bollyMenuList">
+        <item>Shahi Paneer</item>
+        <item>Aloo matar</item>
+        <item>Paneer matar</item>
+        <item>Dal Tadka</item>
+        <item>Butter Naan</item>
+        <item>Rice</item>
+        <item>Biryani</item>
+        <item>Malai Kofta</item>
+    </string-array>
+
+    <string-array name="laMenuList">
+        <item>Spizy sausage</item>
+        <item>Italiano pasta</item>
+        <item>Mac n cheese</item>
+        <item>Italian pizza</item>
+        <item>Italian toast</item>
+        <item>Grilled cheese sandwich</item>
+        <item>Italian Penny</item>
+        <item>British Crab Spaghetti</item>
+    </string-array>
+
+    <string-array name="gMenuList">
+        <item>Lasagnia</item>
+        <item>Pizza</item>
+        <item>Desert</item>
+        <item>Turkey</item>
+        <item>Silky Penne</item>
+        <item>Ravioli</item>
+        <item>Prawns</item>
+        <item>Shrimp</item>
+    </string-array>
+
+
+</resources>

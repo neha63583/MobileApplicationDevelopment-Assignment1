@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.georgebrown.comp3074.a1101043939.CustInfoActivity">
+
+    <TextView
+        android:id="@+id/custInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Please enter the following details:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/custNameEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <EditText
+        android:id="@+id/custNameEditText"
+        android:layout_width="287dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Name*"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        android:maxLength="15"
+        app:layout_constraintBottom_toTopOf="@+id/custEmailEditText"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/custEmailEditText"
+        android:layout_width="291dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Email address*"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        android:maxLength="30"
+        app:layout_constraintBottom_toTopOf="@+id/custPhoneEditText"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/custPhoneEditText"
+        android:layout_width="291dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Contact Number*"
+        android:inputType="phone"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        android:maxLength="10"
+        app:layout_constraintBottom_toTopOf="@+id/custAddEditText"
+        tools:layout_editor_absoluteY="158dp"
+        app:layout_constraintHorizontal_bias="0.508" />
+
+    <EditText
+        android:id="@+id/custAddEditText"
+        android:layout_width="289dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Address*"
+        android:inputType="textPostalAddress"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        android:maxLength="50"
+        app:layout_constraintBottom_toTopOf="@+id/custCardEditText"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
+        android:id="@+id/custCardEditText"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="59dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Credit Card Number*"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/favChefEditText"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:maxLength="16"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/favFoodEditText"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Favourite Food"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/selectedItemsTextView"
+        android:maxLength="10"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/favChefEditText"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Favourite Chef"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/selectedItemsTextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/favFoodEditText"
+        android:maxLength="20"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/selectedItemsTextView"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:text="SelecetedItems"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/placeOrderBtn"
+        tools:layout_editor_absoluteY="398dp"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/placeOrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="-9dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

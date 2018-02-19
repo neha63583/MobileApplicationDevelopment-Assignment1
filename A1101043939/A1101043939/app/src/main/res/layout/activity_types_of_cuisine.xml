@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="ca.georgebrown.comp3074.a1101043939.TypesOfCuisineActivity">
+
+    <TextView
+        android:id="@+id/typesTextView"
+        android:layout_width="301dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="cursive"
+        android:text="Choose your type of Cuisine"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/typesRadioGrp"
+        android:layout_width="143dp"
+        android:layout_height="178dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typesTextView"
+        app:layout_constraintVertical_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.44">
+
+        <RadioButton
+            android:id="@+id/amrRadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="American"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/itaRadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italian"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/chiRadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinese"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/indRadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indian"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
